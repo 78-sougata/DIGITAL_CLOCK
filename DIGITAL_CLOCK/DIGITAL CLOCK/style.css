@@ -1,0 +1,25 @@
+body{
+    background-color: cyan;
+}
+.clock{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    font-family: sans-serif;
+}
+.time{
+    background-color: #090909;
+    color: aliceblue;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+}
+.heading{
+    font-size: 20px;
+    text-align: center;
+    background-color: #090909;
+    color: aliceblue;
+}
